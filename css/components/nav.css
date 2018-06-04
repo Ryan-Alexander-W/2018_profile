@@ -1,0 +1,162 @@
+/*nav bar*/
+
+ul a:hover {
+  background:rgba(0,0,0,0.3);
+  text-decoration: none;
+}
+
+.toggleNav {
+  display: none;
+}
+
+.flex-nav {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   background-color: #272525;
+   padding: 20px 50px;
+}
+
+.flex-nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.flex-nav li{
+	flex: 1;
+}
+
+
+/*left side*/
+.box {
+  padding:10px;
+}
+
+.avatar{
+	border-radius: 50%;
+	height: 55px;
+
+}
+
+.box1 {
+	display: flex;
+	flex: 3;
+	flex-basis:200px;
+	justify-content: center;
+}
+
+
+#nav-name {
+	padding-left: 10px;
+
+}
+
+.box1 h5{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.box1 h6{
+	font-size: 2.1rem;
+	font-weight: 300;
+	line-height: 0.3em;
+	letter-spacing: 2.65px;
+	color: #67b5a3;
+	font-weight: lighter;
+
+}
+
+.box1 h6:hover {
+	color: white;
+}
+
+
+
+.box2{
+	  flex: 4 6 400px;
+
+}
+
+.box2 a{
+	text-decoration: none;
+	color: white;
+}
+
+.flex-nav a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+
+@media all and (max-width:1080px) {
+  .flex-nav ul {
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  .box1{
+    flex:1 1 100%;
+  }
+
+  .box2{
+    flex:1 1 100%;
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .box2 li{
+  	flex: 1 1 25%;
+  	justify-content: center;
+  }
+}
+
+@media all and (max-width:500px){
+	.flex-nav ul{
+		padding: 0;
+		display: none;
+			text-decoration: none;
+
+
+	}
+
+	    .flex-nav ul.open {
+      display:flex;
+
+    }
+	.box2 li{
+		border: 1px solid rgba(86, 85, 90, 0.5);
+    flex-basis: 100%;
+    padding: 10px 0;
+	}
+
+	.box2 a{
+		padding: 10px 0;
+	}
+
+
+	  .toggleNav {
+	  	text-decoration: none;
+    display: block;
+    flex-basis: 100%;
+    color: white;
+    font-style: 50px;
+  }
+#toggle a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+  #toggle {
+	text-decoration: none;
+  	font-style: 50px;
+  	color: white;
+  	padding-bottom: 20px;
+  }
+  #toggle:hover {
+  	color: #f710e0;
+  }
+
+  #logo {
+  	display: none;
+  }
+
+  
+
+}

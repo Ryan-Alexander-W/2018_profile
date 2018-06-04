@@ -1,0 +1,64 @@
+#main2 {
+	z-index: 2;
+	height: 1vh;
+/*	min-height: 300px;
+*/	position: relative;
+/*	border: 20px solid black;
+*/	display: grid;
+	justify-content: stretch;
+	grid-gap: 5px;
+	grid-template-columns: repeat(20, auto) ;
+	background: rgba(30, 255, 177, 0.7);
+}
+
+
+
+.item {
+	border: 5px solid red;
+}
+
+/*.main > * {
+	border-radius: 1px solid red;
+}*/
+
+.item {
+  /* We center the contents of these items. You can also do this with flexbox too! */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  font-size: 35px;
+}
+
+
+
+.item p {
+  margin: 0 0 5px 0;
+/*  visibility: hidden
+*/}
+
+.item1 {
+
+background: rgb(215,48,39)  ;
+}
+
+.item2 {
+
+/*background: rgb(252,141,89) ;
+*/}
+
+.item3 {
+	/*background: rgb(254,224,144) ;*/
+}
+
+.item4 {
+	/*background: rgb(224,243,248) ;*/
+}
+
+.item5 {
+	/*background: rgb(145,191,219) ;*/
+}
+
+.item6 {
+	/*background: rgb(69,117,180) ;*/
+}

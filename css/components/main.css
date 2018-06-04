@@ -1,0 +1,130 @@
+#main {
+	z-index: 2;
+	height: 60vh;
+	min-height: 300px;
+	position: relative;
+	border: 20px solid black;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: auto auto auto auto auto auto;
+}
+
+
+
+.item {
+	border: 5px solid red;
+}
+
+/*.main > * {
+	border-radius: 1px solid red;
+}*/
+
+.item {
+  /* We center the contents of these items. You can also do this with flexbox too! */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  font-size: 35px;
+}
+
+
+
+.item p {
+  margin: 0 0 5px 0;
+/*  visibility: hidden
+*/}
+
+.item1 {
+
+background: rgb(215,48,39)  ;
+}
+
+.item2 {
+
+background: rgb(252,141,89) ;
+}
+
+.item3 {
+	/*background: rgb(254,224,144) ;*/
+}
+
+.item4 {
+	/*background: rgb(224,243,248) ;*/
+}
+
+.item5 {
+	/*background: rgb(145,191,219) ;*/
+}
+
+.item6 {
+	/*background: rgb(69,117,180) ;*/
+}
+
+
+.title {
+	min-height: 300px;
+	height: 60vh;
+	position: absolute;
+	z-index: 10;
+	display: grid;
+	width: 100%;
+	justify-items: center;
+	align-content: center;
+	top: -20px;
+	background: rgba(0,0,0,0.7);
+	letter-spacing: 6.4px;
+
+}
+
+/*title fonts*/
+.title h1 {
+	font-family: 'Bowlby One SC', roboto;
+	font-size: 9rem;
+	text-shadow: 10px 10px 1.5px black;
+
+}
+
+.title h2 {
+	font-family: 'Bowlby One SC', roboto;
+	font-size: 9rem;
+	text-shadow: 10px 10px 1.5px black;
+}
+
+
+@media all and (max-width:500px){
+	#main {
+		display: grid;
+		justify-content: space-around;
+	}
+	.title{
+		position: absolute;
+	}
+	.title h1{
+
+	font-size: 6rem;
+
+}
+
+.title h2{
+
+	font-size: 6rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+@import url("components/nav.css");
+@import url("components/main.css");
+@import url("components/main2.css");
+@import url("components/portfolio.css");
+@import url("components/profile.css");
+@import url("components/footer.css");
+
+
+html {
+
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: #272525;
+}
+
+.wrapper {
+ padding: 0 auto;
+  font-family: 'Monoton';
+  background-color: #272525;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+
+
+/*fonts*/
+
+.wrapper a {
+	font-family: raleway;
+	font-weight: lighter;
+	text-decoration: none;
+	color: white;
+}
+
+.wrapper h5 {
+	font-family: raleway;
+	font-style: 50px;
+	color: white;
+}
+
+.wrapper h3{
+	font-family: raleway;
+	font-style: 18px;
+	color: white;	
+}
+
+.wrapper a:hover {
+		
+
+}
+
+.wrapper a:hover {
+	color: #67b5a3;
+	text-decoration: none;
+}
+
+/*.wrapper p {
+	font-family: roboto;
+	font-weight: lighter;
+	font-size: 15px;
+}*/
+
+ p {
+ 	font-family: roboto;
+	line-height: 30px;
+	font-size: 18px
+}
+/*.flex-nav a:link    {text-decoration: none; }
+.flex-nav a:visited {text-decoration: none; }
+.flex-nav a:hover   {text-decoration: none; }
+.flex-nav a:active  {text-decoration: none; }
+*/
+
+
+
+
+
+
+
+
+
