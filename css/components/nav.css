@@ -1,9 +1,6 @@
 /*nav bar*/
 
-ul a:hover {
-  background:rgba(0,0,0,0.3);
-  text-decoration: none;
-}
+
 
 .toggleNav {
   display: none;

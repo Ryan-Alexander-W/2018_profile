@@ -25,6 +25,10 @@
 
 }
 
+.footer ul .fab:hover{
+	color: #67b5a3;
+}
+
 @media all and (max-width:500px) {
 	.footer {
 		flex-direction: column;
